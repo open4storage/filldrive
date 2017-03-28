@@ -26,7 +26,7 @@ def get_unit_size(unit):
         return 1024
     elif unit in ['M', 'MB']:
         return 1024 * 1024
-    elif unit is 'G' or unit is 'GB':
+    elif unit in ['G', 'GB']:
         return 1024 * 1024 * 1024
     elif unit in ['T', 'TB']:
         return 1024 * 1024 * 1024 * 1024
